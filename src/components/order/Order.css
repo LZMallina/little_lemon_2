@@ -1,0 +1,117 @@
+.deliveryChoice {
+    background: var(--green);
+    padding: 20px;
+    text-align: center;
+}
+
+.deliveryChoice button {
+    width: 9rem;
+    height: 3rem;
+    margin-left: 20px;
+    font-family: var(--paragraph-font-family);
+    font-size: 1.5rem;
+    background: var(--yellow);
+}
+
+.deliveryChoice button:hover {
+    background: var(--peach);
+    color: var(--orange);
+    cursor: pointer;
+}
+
+.selection-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.align {
+    display: flex;
+    justify-content: space-between;
+}
+
+.orderChoice-container {
+    text-align: justify;
+    font-family: var(--paragraph-font-family);
+    width: 60rem;
+    font-size: 1.5rem;
+    padding: 0px 0px 20px 50px;
+}
+
+.food-container {
+    padding: 10px;
+    border: 1px solid var(--green);
+    width: 50rem;
+    border-radius: 10px;
+}
+
+.add-container button {
+    background: var(--green);
+    color: white;
+    width: 7rem;
+    padding: 20px;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    border: none;
+}
+
+.add-container button:hover {
+    background: var(--peach);
+    color: var(--orange);
+    cursor: pointer;
+}
+
+.add-container span {
+    font-size: 2rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: var(--yellow);
+}
+
+.shoppingList-container {
+    background: white;
+    position: fixed;
+    top: 200px;
+    right: 50px;
+    border: 10px solid var(--green);
+    border-style: double;
+    border-radius: 10px;
+    padding: 10px;
+    width: 20rem;
+    height: 30rem;
+}
+
+.sL-header {
+    font-family: var(--paragraph-font-family);
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.summary {
+    height: 14rem;
+}
+
+.subtotal {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    text-align: center;
+    line-height: 1;
+    font-size: 1.5rem;
+}
+
+.checkoutBTN {
+    background: var(--yellow);
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    font-family: var(--paragraph-font-family);
+    font-size: 2rem;
+}
+
+.checkoutBTN:hover {
+    background: var(--peach);
+    color: var(--orange);
+    cursor: pointer;
+}

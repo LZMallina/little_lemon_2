@@ -1,0 +1,194 @@
+/***search form**/
+.search-form{
+    display: flex;
+    justify-content: center;
+    background:white;
+    width:600px;
+    height:45px;
+    margin-right:auto;
+    margin-left:auto;
+    border-radius:10px;
+}
+.custom-date-input {
+    background-size:20px;
+    width:240px;
+    height: 24px;
+    background:url('./calendar_icon.png') no-repeat left,url('./dropdown_icon.png') no-repeat right;
+    border:none;
+    border-right: 2px solid black; 
+    position: relative;
+    top: 10px;
+    left:10px;
+    text-align: center;
+    font-size: 15px;
+}
+.custom-time-input {
+    background-size: 20px;
+    width: 120px;
+    height: 24px;
+    background: url('./time_icon.png') no-repeat left, url('./dropdown_icon.png') no-repeat right;
+    border:none;
+    border-right: 2px solid black;
+    position: relative;
+    top: 10px;
+    left:15px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.customer-number-input {
+    background-size: 20px;
+    width: 150px;
+    height: 24px;
+    background: url('./customer_icon.png') no-repeat left;
+    text-align:center;
+    font-size:15px;
+    margin-right:20px;
+    border:none;
+    position: relative;
+    top: 10px;
+    left: 15px;
+}
+.custom-date-input:focus-visible, .custom-time-input:focus-visible, .customer-number-input:focus-visible{
+    outline-color: var(--yellow);
+    cursor:pointer;
+}
+.search-form select{
+    font-size:15px;
+    border:none;
+}
+.search-form button{
+    background:var(--yellow);
+    border:none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-weight:bold;
+    font-size: 15px;
+}
+.search-form button:hover{
+    background: var(--peach);
+    color: var(--orange);
+    cursor: pointer;
+}
+/***booking slot****/
+.availableTime-btn{
+    background:var(--yellow);
+    font-family:var(--paragraph-font-family);
+    padding:10px;
+    margin:10px;
+    font-size:15px;
+    border-radius:10px;
+}
+.availableTime-btn:hover{
+    cursor: pointer;
+    color:var(--orange);
+    background:var(--peach)
+}
+/***booking form***/
+
+.bookForm{
+    padding:20px;
+    text-align:right;
+    color:white;
+    background: var(--green);
+    width:100%;
+}
+.goUp{
+    transform: translateY(-40rem);
+    transition:0.5s;
+}
+.form-container{
+    border: 1px solid var(--yellow);
+    width:650px;
+    padding:20px;
+    margin:auto;
+}
+.bookForm p{
+    color:var(--yellow);
+    font-size:10px;
+    text-align:center;
+}
+.bookForm span:hover{
+    color:var(--orange)
+}
+.bookForm span{
+    color:var(--peach);
+    font-size:15px;
+}
+.search-detail-container {
+    text-align:center;
+    border: 1px solid white;
+    line-height: 0.5;
+    padding-bottom:20px;
+}
+.search-detail-container span{
+    font-size:15px;
+    color:white;
+}
+.radio-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.flex{
+    display:flex;
+    width:400px;
+    position:relative;
+    left:215px;
+    text-align:left;
+}
+.label2 {
+ display:flex;
+}
+
+.input {
+    width: 400px;
+    padding:5px;
+    margin-left: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+.bookForm select{
+    padding: 5px;
+    margin-right: 30px;
+    width:150px;
+    font-size:15px;
+}
+.bookForm textarea{
+    width:240px;
+    padding:10px;
+}
+
+.bookForm select:focus-visible{
+    outline-color: var(--yellow);
+    cursor: pointer;
+}
+
+.bookForm span{
+    font-weight:bold;
+    padding-right:20px;
+}
+.bookForm button{
+    font-size:25px;
+    font-weight: bold;
+    width:150px;
+    padding:10px;
+    display:block;
+    margin:auto;
+    border-radius:10px;
+    background:var(--yellow);
+    border:none;
+}
+.bookForm button:hover {
+    background: var(--peach);
+    color: var(--orange);
+    cursor: pointer;
+}
+.form-control{
+    margin-bottom:20px;
+}
+.error{
+    color:red;
+    font-size:10px;  
+}

@@ -1,0 +1,28 @@
+/***food list***/
+.category-container{
+    box-shadow: 0 8px 6px -6px var(--gray);
+    width:75rem;
+    margin-left:auto;
+    margin-right:auto;
+}
+.category-container h2{
+    font-family:var(--headings-font-family)
+}
+.i-container{
+    font-family:var(--paragraph-font-family);
+    padding-bottom:1rem;
+    font-size:1.25rem;
+}
+.price{
+    color:var(--orange)
+}
+.i-container span{
+    padding-left:2rem;
+}
+/****wine list***/
+.weeklyspecials h3{
+    font-family:var(--headings-font-family);
+    font-size:1.5rem;
+    color:var(--black);
+    text-shadow: 2px 2px var(--yellow);
+}

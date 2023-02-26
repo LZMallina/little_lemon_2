@@ -1,0 +1,28 @@
+/*global css set up*/
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Karla:wght@500&family=Passions+Conflict&family=Train+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Markazi+Text:wght@700&family=Passions+Conflict&family=Train+One&display=swap');
+
+:root{
+  --headings-font-family:'Markazi Text',
+    serif;
+  --paragraph-font-family:'Karla',
+    sans-serif;
+  --green:#495E57;
+  --yellow:#F4CD14;
+  --orange:#EE9972;
+  --peach:#FBDABB;
+  --gray:#EDEFEE;
+  --black:#333333;
+  font-size:1vw;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background:white;
+  line-height: 1.5;
+}
+
+code {
+  font-family: var(--paragraph-font-family)
+}

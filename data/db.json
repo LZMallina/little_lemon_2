@@ -1,0 +1,448 @@
+{
+    "foodList": [
+    {
+        "id": "s1",
+        "categories": "Soup and Salads",
+        "name": "Chicken Avgolemono ",
+        "ingredients": "Egg lemon broth | orzo | pulled chicken",
+        "price": 6.50
+    },
+    {
+        "id": "s2",
+        "categories": "Soup and Salads",
+        "name": "Lentil",
+        "ingredients": "Rich tomato | carrots | celery | onion",
+        "price": 6.00
+    },
+    {
+        "id": "s3",
+        "categories": "Soup and Salads",
+        "name": "Greek Salad",
+        "ingredients": "Romaine | tomatoes |cucumbers | green peppers | onions | Pepperoncini | feta cheese radishes | Black olives| Greek dressing",
+        "price": 12.99
+    },
+    {
+        "id":"s4",
+        "categories": "Soup and Salads",
+        "name": "Fettoush",
+        "ingredients": "Romaine | Tomatoes | cucumbers | green peppers onions | pita chips | pomegranate vinaigrette",
+        "price": 11.00
+    },
+    {
+        "id":"s5",
+        "categories": "Soup and Salads",
+        "name": "Garden",
+        "ingredients": "Romaine | tomatoes | cucumbers | onions | green peppers | Greek dressing",
+        "price": 7.00
+    },
+    {
+        "id":"s6",
+        "categories": "Soup and Salads",
+        "name": "Chickpea",
+        "ingredients": "Chickpeas | diced tomatoes | cucumbers | green peppers | onions | pomegranate vinaigrette | pita chips",
+        "price": 11.00
+    },
+    {   
+        "id":"d1",
+        "categories": "Dips",
+        "name": "Tzatziki",
+        "ingredients": "Greek yogurt | cucumber | garlic | dill | olive oil",
+        "price": 8.00
+    },
+    {
+        "id":"d2",
+        "categories": "Dips",
+        "name": "Hummus",
+        "ingredients": "Chickepeas | tahini | lemon juice | garlic | pita",
+        "price": 8.00
+    },
+    {
+        "id":"d3",
+        "categories": "Dips",
+        "name": "Baba Ghannouj",
+        "ingredients": "Smoked eggplant | tahini | lemon juice | garlic",
+        "price": 8.00
+    },
+    {
+        "id":"d4",
+        "categories": "Dips",
+        "name": "Spicy Feta",
+        "ingredients": "Blended peppers | feta cheese | olive oil",
+        "price": 8.00
+    },
+    {
+        "id":"a1",
+        "categories": "Appetizers",
+        "name": "Dolmades",
+        "ingredients": "Stuffed grapeleaves | rice | tomatoes | onions | lemon juice | crumbled feta",
+        "price": 8.00
+    },
+    {
+        "id": "a2",
+        "categories": "Appetizers",
+        "name": "Tabouleh",
+        "ingredients": "Fried zucchini | feta cheese | tomatoes | herbs | tzatziki",
+        "price": 7.00
+    },
+    {
+        "id": "a3",
+        "categories": "Appetizers",
+        "name": "Saganaki",
+        "ingredients": "Kefalograviera cheese | Flambeed tableside | brandy | lemon",
+        "price": 11.00
+    },
+    {
+        "id":"a4",
+        "categories": "Appetizers",
+        "name": "Fried Kibbeh",
+        "ingredients": "Stuffed wheat shells | ground beef, onions | pine nuts",
+        "price": 8.50
+    },
+    
+    {
+        "id":"a5",
+        "categories": "Appetizers",
+        "name": "Calamari",
+        "ingredients": "Lightly fried | cocktail sauce | lemon",
+        "price": 11.00
+    },
+    {
+        "id":"a6",
+        "categories": "Appetizers",
+        "name": "Falafel",
+        "ingredients": "Chickpea fritters | tahini | pita",
+        "price": 11.00
+    },
+    {
+        "id":"a6",
+        "categories": "Appetizers",
+        "name": "Spanakopita",
+        "ingredients": "Fresh spinach | leeks | dill | feta cheese | flaky phyllo",
+        "price": 10.00
+    },
+    {
+        "id":"a8",
+        "categories": "Appetizers",
+        "name": "Brachrocett",
+        "ingredients": "Chopped parsley | tomatoes | onions | bulghar wheat | oliveoil | lemon juice",
+        "price": 6.99
+    },
+    {
+        "id":"w1",
+        "categories": "Wraps and Burgers",
+        "name": "Greek Burger",
+        "ingredients": "Chargrilled beef* | lettuce | tomato | onion | feta cheese | Greek dressing* on pita | tzatziki",
+        "price": 10.00
+    },
+    {
+        "id":"w2",
+        "categories": "Wraps and Burgers",
+        "name": "Lamb Burger",
+        "ingredients": "Chargrilled lamb* | stuffed with feta | lettuce | tomato | onion | tzatziki",
+        "price": 11.00
+    },
+    {
+        "id":"w3",
+        "categories": "Wraps and Burgers",
+        "name": "Falafel",
+        "ingredients": "chickpea fritters | tomatoes | lettuce | torshi pickles |tahini",
+        "price": 9.00
+    },
+    {
+        "id":"w4",
+        "categories": "Wraps and Burgers",
+        "name": "Crispy Chicken",
+        "ingredients": "Fried strips | lettuce | tomatoes | cucumbers | onions | feta | vinaigrette",
+        "price": 9.50
+    },
+    {
+        "id":"w5",
+        "categories": "Wraps and Burgers",
+        "name": "Veggie",
+        "ingredients": "Hummus | baby spinach | tomatoes | cucumbers | fetacheese | vinaigrette",
+        "price": 9.00
+    },
+    {
+        "id":"w6",
+        "categories": "Wraps and Burgers",
+        "name": "Gyro",
+        "ingredients": "Beef and lamb mix | tomatoes| onions | tzatzikiDinner | Greek salad* | Hand cut fries",
+        "price": 9.50
+    },
+    {
+        "id":"w7",
+        "categories": "Wraps and Burgers",
+        "name": "Chicken or Lamb Souvlaki",
+        "ingredients": "Chargrilled chuncks | tomatoes | onions | tzatzikiDinner | Greek salad* | Hand cut fries",
+        "price": 11.00
+    },
+    {
+        "id":"e1",
+        "categories": "Entrees",
+        "name": "Mixed Grille",
+        "ingredients": "Kafta, Chicken & Beef* Kebab | grilled vegetables | Basmati rice | yogurt sauce",
+        "price": 19.00
+    },
+    {
+        "id":"e1",
+        "categories": "Entrees",
+        "name": "Lamb Shank",
+        "ingredients": "Tender bone-in lamb | savory tomato sauce | Basmati rice | green beans",
+        "price": 21.00
+    },
+    {
+        "id":"e2",
+        "categories": "Entrees",
+        "name": "Mediterranean Chicken",
+        "ingredients": "Half roasted chicken | Greek potatoes | Fettoush | garlic paste",
+        "price": 18.00
+    },
+    {
+        "id":"e3",
+        "categories": "Entrees",
+        "name": "Pastitsio",
+        "ingredients": "Greek Lasagne | macaroni | ground beef | creamy bechamel | green beans",
+        "price": 16.00
+    },
+    {
+        "id":"e4",
+        "categories": "Entrees",
+        "name": "Mousaka",
+        "ingredients": "Eggplant | potato | ground beef | creamy bechamel | green beans",
+        "price": 16.00
+    },
+    {
+        "id":"e5",
+        "categories": "Entrees",
+        "name": "Mediterranean Salmon",
+        "ingredients": "Tomatoes | onions | bell peppers | cilantro | lime | spanakorizo",
+        "price": 19.00
+    },
+    {
+        "id":"e6",
+        "categories": "Entrees",
+        "name": "Mediterranean Pasta",
+        "ingredients": "Chicken | Green Peppers | Onions | Tomatoes | Penne | Marinara",
+        "price": 16.00
+    },
+    {
+        "id":"e7",
+        "categories": "Entrees",
+        "name": "Mujaddara",
+        "ingredients": "Lentil & basmati rice mix | caramelized onions | Fettoush salad | Greek yogurt",
+        "price": 15.00
+    },
+    {
+        "id":"S1",
+        "categories": "Sides",
+        "name": "Torshi | Cucumbers & Carrots",
+        "price": 3.00
+    },
+    {
+        "id":"S2",
+        "categories": "Sides",
+        "name": "Kalamata Olives | Pepperoncini",
+        "price": 3.00
+    },
+    {
+        "id":"S3",
+        "categories": "Sides",
+        "name": "Side Greek or Fettoush Salad",
+        "price": 6.50
+    },
+    {
+        "id":"S4",
+        "categories": "Sides",
+        "name": "Fresh Cut Fries | Basmati Rice",
+        "price": 4.50
+    },
+    {
+        "id":"S5",
+        "categories": "Sides",
+        "name": "Greek Potatoes | Green Beans",
+        "price": 5.50
+    },
+    {
+        "id":"S6",
+        "categories": "Sides",
+        "name": "Spanakorizo | Sauteed Veggies",
+        "price": 5.50
+    },
+    {
+        "id":"S7",
+        "categories": "Sides",
+        "name": "Tzatziki | Spicy Yogurt Tahini| Yogurt Sauce Garlic Paste",
+        "price": 1.25
+    },
+    {
+        "id":"S8",
+        "categories": "Sides",
+        "name": "Pita",
+        "price": 1.00
+    },
+    {
+        "id":"D1",
+        "categories": "Dessert",
+        "name": "Galaktoboureko",
+        "ingredients": "Farina | phyllo | honey syrup | orange zest |crushed pistachios",
+        "price": 6.00
+    },
+    {
+        "id":"D2",
+        "categories": "Dessert",
+        "name": "Cheesecake",
+        "ingredients": "Pineapple bits | fresh strawberry puree",
+        "price": 6.00
+    },
+    {
+        "id":"D3",
+        "categories": "Dessert",
+        "name": "Lemon Cake",
+        "ingredients": "Lemon white mousse | yellow sponge cake",
+        "price": 5.99
+    },
+    {
+        "id":"D4",
+        "categories": "Dessert",
+        "name": "Baklava",
+        "ingredients": "Crushed walnuts | cinnamon | flaky phyllo | honey",
+        "price": 5.00
+    },
+    {
+        "id":"D5",
+        "categories": "Dessert",
+        "name": "Greek Yogurt",
+        "ingredients": "Honey | crushed walnuts",
+        "price": 4.5
+    },
+    {
+        "categories": "Beverages",
+        "name": "Sodas | Iced TeasCoffee | Hot Tea | Greek Coffee | Iced FrappeSourotti | Sparkling Water",
+        "price": 5.00
+    },
+    {
+        "categories": "Kids Menu",
+        "name": "Cheeseburger & Fries | Gyro & Fries | Cheese Pita Pizza | Pasta Marinara | Chicken Souvlaki & Fries | Crispy Tilapia & Rice | Chicken Tenders & Fries",
+        "price": 10.99
+    }
+],
+"wineList":[
+    {
+        "categories": "Red",
+        "name": "La Marca Presecco",
+        "priceB": 40,
+        "priceC": 11.99
+    },
+     {
+        "categories": "Red",
+        "name": "Cole Cellars Cabernet Sauvignon",
+        "priceB": 25,
+        "priceC": 9.99
+    },
+     {
+        "categories": "Red",
+        "name": "Josh Cellars Cabernet Sauvignon",
+        "priceB": 32.00,
+        "priceC": 10.49
+    },
+     {
+        "categories": "Red",
+        "name": "Apothic Red",
+        "priceB": 21,
+        "priceC": 7.49
+    },
+     {
+        "categories": "Red",
+        "name": "Valiant Red Blend",
+        "priceB": 21,
+        "priceC": 6.99
+    },
+     {
+        "categories": "Red",
+        "name": "Que Vida Vinho Tinto",
+        "priceB": 21,
+        "priceC": 7.00
+    },
+    {
+        "categories": "white",
+        "name": "Parini Presecco Brut",
+        "priceB": 30,
+        "priceC": 10.99
+    },
+    {
+        "categories": "white",
+        "name": "Kim Crawford Sauvignon Blanc",
+        "priceB": 33,
+        "priceC": 11.49
+    },
+    {
+        "categories": "white",
+        "name": "Oyster Bay Sauvignon Blanc",
+        "priceB": 35,
+        "priceC": 9.99
+    },
+    {
+        "categories": "white",
+        "name": "White Cloud Marlborough Sauvignon Blanc",
+        "priceB": 44,
+        "priceC": 12.99
+    },
+     {
+        "categories": "white",
+        "name": "Le Altane Pinot Grigio",
+        "priceB": 21,
+        "priceC": 7.00
+    },
+    {
+        "categories": "white",
+        "name": "Famiglie Pinot Grigio",
+        "priceB": 32,
+        "priceC": 10.99
+    },
+     {
+        "categories": "white",
+        "name": "Cole Cellars Chardonnay",
+        "priceB": 30,
+        "priceC": 9.99
+    }
+],
+
+ "weeklyspecialsList":[
+    {
+        "categories": "Soup and Salads",
+        "name": "Greek Salad",
+        "ingredients": "Romaine | tomatoes |cucumbers | green peppers | onions | Pepperoncini | feta cheese radishes | Black olives| Greek dressing",
+        "price": 12.99
+    },
+      {
+        "categories": "Dips",
+        "name": "Baba Ghannouj",
+        "ingredients":"Smoked eggplant | tahini | lemon juice | garlic",
+        "price": 8.00
+    },
+       {
+        "categories": "Appetizer",
+        "name": "Brachrocett",
+        "ingredients":"Chopped parsley | tomatoes | onions | bulghar wheat | oliveoil | lemon juice",
+        "price": 6.99
+    },
+     {
+        "categories": "Wraps and Burgers",
+        "name": "Gyro",
+        "ingredients":"Beef and lamb mix | tomatoes| onions | tzatzikiDinner | Greek salad* | Hand cut fries",
+        "price": 9.50
+    },
+      {
+        "categories": " Entrees",
+        "name": "Mediterranean Chicken",
+        "ingredients":"Half roasted chicken | Greek potatoes | Fettoush | garlic paste",
+        "price": 18.00
+    },
+    {
+        "categories": "Dessert",
+        "name": "Lemon Cake",
+        "ingredients":"Lemon white mousse | yellow sponge cake",
+        "price": 5.99
+    }
+]
+}
